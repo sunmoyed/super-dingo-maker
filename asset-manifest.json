@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/super-dingo-maker/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/super-dingo-maker/static/js/main.cebd973a.chunk.js",
-    "main.js.map": "/super-dingo-maker/static/js/main.cebd973a.chunk.js.map",
+    "main.js": "/super-dingo-maker/static/js/main.ab9f65f5.chunk.js",
+    "main.js.map": "/super-dingo-maker/static/js/main.ab9f65f5.chunk.js.map",
     "runtime-main.js": "/super-dingo-maker/static/js/runtime-main.d0ad9681.js",
     "runtime-main.js.map": "/super-dingo-maker/static/js/runtime-main.d0ad9681.js.map",
     "static/js/2.95c9f4fa.chunk.js": "/super-dingo-maker/static/js/2.95c9f4fa.chunk.js",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.d0ad9681.js",
     "static/js/2.95c9f4fa.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.cebd973a.chunk.js"
+    "static/js/main.ab9f65f5.chunk.js"
   ]
 }

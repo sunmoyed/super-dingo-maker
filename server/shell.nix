@@ -1,6 +1,13 @@
-{ pkgs ? import <nixpkgs> { } }:
-let ghc = pkgs.haskellPackages.ghcWithHoogle (pkgs: [ pkgs.split pkgs.parsec pkgs.parsec3-numbers pkgs.parallel ]);
-in
-pkgs.mkShell {
-  buildInputs = [ ghc pkgs.haskellPackages.haskell-language-server pkgs.ghcid];
-}
+(import
+  (
+    let
+      lock = builtins.fromJSON (builtins.readFile ./flake.lock);
+    in
+    fetchTarball {
+      url = "https://github.com/edolstra/flake-compat/archive/${lock.nodes.flake-compat.locked.rev}.tar.gz";
+      sha256 = lock.nodes.flake-compat.locked.narHash;
+    }
+  )
+  {
+    src = ./.;
+  }).shellNix

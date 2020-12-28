@@ -10,4 +10,4 @@
   )
   {
     src = ./.;
-  }).shellNix
+  }).shellNix.default.overrideAttrs (e: { STACK_IN_NIX_SHELL = true; }) # Annoying thing we ahve to do. https://github.com/commercialhaskell/stack/issues/5008#issuecomment-647002048

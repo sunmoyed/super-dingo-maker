@@ -21,6 +21,8 @@ description:         Please see the README on GitHub at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
+# - aeson == 1.5.4.1
+# - aws-lambda-haskell-runtime == 3.0.5
 
 library:
   source-dirs: src

@@ -1,0 +1,6 @@
+config:
+  aws:config: fruit
+  aws:region: us-west-2
+  server:stripe_public_key: pk_test_51I1icnHnmSSGyUB79vTqzftUmvOcv3Ozz9PcPhPsHLOsJCIViF72atYsU6HWeInjA81v3EnKygKgQuESPuoopciT00j8sgOAKm
+  server:stripe_secret_key:
+    secure: AAABAPEapS2MbWHoyy09UjAkONq4402vILF7uMPFG3T+FFVASsYz7Dao2gXIIIfI/IPatcw50KWFWI8cu8eiiPbYCtXvxOR5Z3xtUM31mK5mKX/OJxCg8sC33yYIZex7M1rXl27HdHRfHR+a+0q1Oaf8ycSRO4L8Zr9bkd38s2f1lpzEzwVDjCjf9Q==

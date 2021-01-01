@@ -1,0 +1,12 @@
+{
+    "name": "server",
+    "devDependencies": {
+        "@types/node": "^10.0.0"
+    },
+    "dependencies": {
+        "@pulumi/aws": "^3.0.0",
+        "@pulumi/awsx": "^0.22.0",
+        "@pulumi/pulumi": "^2.0.0",
+        "stripe": "^8.129.0"
+    }
+}

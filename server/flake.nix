@@ -20,7 +20,9 @@
         {
           devShell = pkgs.mkShell
             {
-              buildInputs = [ pkgs.pulumi-bin ];
+              # I'd rather use the most up to date unfortunately
+              # buildInputs = [ pkgs.pulumi-bin ];
+              buildInputs = [ ];
             };
         }
       );
